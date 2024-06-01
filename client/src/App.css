@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white ;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.App-header .MuiToolbar-root {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 80%;
+  max-width: 400px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+li {
+  background: #444;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+li:hover {
+  background: #555;
+}
+
+a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #61dafb;
+  color: #282c34;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+.MuiContainer-root {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.MuiListItem-root {
+  background: #444;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.MuiListItem-root:hover {
+  background: #555;
+}
+
+.MuiTypography-root {
+  margin-bottom: 10px;
+}
+
+.Modal {
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #282c34;
+  color: white;
+}
+
+.Modal .MuiButton-root {
+  margin-top: 20px;
+}
+
+.PlanetDetail {
+  background-color: #444;
+  padding: 20px;
+  border-radius: 4px;
+  margin-top: 20px;
+  text-align: left;
+  max-width: 500px;
+  width: 80%;
+}
+
+.PlanetDetail h2 {
+  margin-top: 0;
+}
+
+.PlanetDetail p {
+  margin: 10px 0;
+}
